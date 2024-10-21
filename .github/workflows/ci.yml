@@ -25,7 +25,7 @@ jobs:
         run: mvn clean install
 
       - name: SonarCloud Scan
-        uses: SonarSource/sonarcloud-github-action@v1
+        uses: SonarSource/sonarcloud-github-action@v3
         with:
           projectKey: TAOUBI-123_archiva-parent      # Replace with your actual project key
           organization: TAOUBI       # Replace with your actual organization
